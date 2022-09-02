@@ -55,8 +55,15 @@ fn main() {
                 println!("Unknown");
             }
         }
+        else {
+            println!("Error! This is not a file")
+        }
     }
 }
+
+
+
+
 
 fn create_directory(path: &Path) {
     if !path.exists() {
