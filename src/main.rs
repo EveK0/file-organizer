@@ -56,7 +56,6 @@ fn main() {
             }
         }
     }
-    println!("i'm finish mother fucker :D");
 }
 
 fn create_directory(path: &Path) {
